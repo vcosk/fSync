@@ -1,0 +1,21 @@
+access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+User ID:
+https://graph.facebook.com/fql?q=select uid%2Cusername from user where uid%3Dme()&access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+
+Album Info
+https://graph.facebook.com/fql?q=SELECT%20name%2C%20object_id%20%2C%20cover_object_id%20FROM%20album%20WHERE%20owner=509234563&access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+
+Photos ID:
+https://graph.facebook.com/fql?q=select%20object_id%2C%20object_id%20FROM%20photo%20WHERE%20album_object_id=10150690334364564&access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+
+Photo Sources
+https://graph.facebook.com/10150690336459564?access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+https://graph.facebook.com/10150690351619564?access_token=AAAByJdGzRvMBAD3KH18decFzCPjZBGH7tvHf90bA3roc3eAPC0TAOvha0YxZAcCIROKrjnH8VKUXSZCST9SY71BwtGUSQQvGPG89vd9FwZDZD
+
+-- Image Array's first element
+
