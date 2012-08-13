@@ -1,0 +1,43 @@
+.header {
+	font-size: 80px;
+}
+.home1 {
+	width: 500px;
+}
+
+.home2 {
+	width: 162px;
+}
+
+.home3 {
+	width: 164px;
+}
+.signin {
+	font-size: 30px;
+	margin-left:160px;
+	margin-top: -140px;
+}
+.login {
+	font-size: 30px;
+	margin-left:160px;
+	margin-top: -90px;
+}
+.youralbums {
+	font-size: 20px;
+}
+.albumthumbimg {
+	width: 200px;
+}
+.albumthumbimg {
+	width: 200px;
+	margin-top:20px;
+}
+.albumtable {
+	width: 100%;
+}
+.albumtable td {
+	width: 25%;
+}
+.albumele {
+	margin: 20px;
+}
