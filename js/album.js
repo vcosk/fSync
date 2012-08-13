@@ -52,7 +52,7 @@ function loadAlbums(data) {
 			if(counter !=0 && counter%3==0) {
 				album[album.length] = "</tr><tr>";
 			}
-			albumIdArray[albumIdArray.length] = albumsArray[i].id;
+			albumIdArray[albumIdArray.length] = albumsArray[i].id+"|"+albumsArray[i].cover_photo;
 			album[album.length] = "<td class='albumele'>";
 			//album[album.length] = "<img src='./img/home2.jpg' class='albumthumbimg' id='"+albumsArray[i].cover_photo+"'/>";
 			album[album.length] = "<img src='https://graph.facebook.com/"+albumsArray[i].id+"/picture?access_token="+accessToken+"' class='albumthumbimg' id='"+albumsArray[i].cover_photo+"'/>";			
